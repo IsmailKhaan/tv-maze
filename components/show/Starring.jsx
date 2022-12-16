@@ -1,12 +1,11 @@
 import axios from 'axios'
-import { useRouter } from 'next/router'
 import React, { useEffect, useState } from 'react'
 
 const Starring = () => {
-    const router = useRouter()
-    const id = router.query.show
+
     const [data, setData] = useState()
     useEffect(() => {
+        let id = location.pathname.split('/').at(-1)
         axios.get(`https://api.tvmaze.com/shows/${id}/cast`).then(response => {
             setData(response?.data)
         })

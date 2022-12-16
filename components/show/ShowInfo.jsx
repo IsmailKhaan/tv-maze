@@ -36,7 +36,7 @@ const ShowInfo = ({ stream, day, time, status, genres }) => {
                             <p className='font-[500]'>Genres</p>
                             <div className='flex flex-wrap'>
                                 {genres?.map((gen) => (
-                                    <p className='text-gray-500 px-1' key={gen}>{gen}</p>
+                                    <p className='text-gray-500' key={gen}>{gen}-</p>
                                 ))}
                             </div>
                         </div>
