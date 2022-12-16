@@ -14,6 +14,6 @@ export const starringDesktop =
 export const starImgDesktop =
   "rounded-full min-w-[40px] min-h-[40px] max-w-[40px] max-h-[40px] object-cover";
 export const starringDataDesktop = "flex items-center w-[50%] justify-between";
-export const starringMobile = "flex items-center w-[50%] justify-between";
+export const starringMobile = "flex items-center gap-7";
 export const starImgMobile =
   "rounded-full min-w-[50px] min-h-[50px] max-w-[50px] max-h-[50px] object-cover";

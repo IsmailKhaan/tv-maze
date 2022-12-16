@@ -23,7 +23,7 @@ const Starring = () => {
                     <StarringDesktop image={cast?.person?.image?.medium} name={cast?.person?.name} character={cast?.character?.name} />
                 )}
             </div>
-            <div className='md:hidden flex-col gap-2 my-3'>
+            <div className='md:hidden flex flex-col gap-4 my-3'>
                 {data?.map((cast) =>
                     <StarringMobile image={cast?.person?.image?.medium} name={cast?.person?.name} character={cast?.character?.name} />
                 )}

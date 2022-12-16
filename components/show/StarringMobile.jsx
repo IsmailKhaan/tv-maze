@@ -6,8 +6,8 @@ const StarringMobile = ({ image, name, character }) => {
         <div className={starringMobile}>
             <img className={starImgMobile} src={image} alt='showcover' />
             <div>
-                <p className='font-[500]'>{name}</p>
-                <p className='text-gray-500'>{character}</p>
+                <p className='font-[500] text-[14px]'>{name}</p>
+                <p className='text-gray-500 text-[12px]'>{character}</p>
             </div>
         </div>
     )
