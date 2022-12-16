@@ -1,0 +1,11 @@
+version: '3.4'
+
+services:
+  tv-maze:
+    build:
+      context: ../.
+      dockerfile: ./Dockerfile
+    restart: always
+    ports:
+      - 3000:3000
+    container_name: tv-maze
