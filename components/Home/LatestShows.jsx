@@ -44,12 +44,12 @@ const LatestShows = () => {
     <>
       <div className='mx-4 md:mx-20 mt-0 md:mt-[-10%]'>
         <p className='text-[20px] py-5 tracking-[2px] lg:text-white'>Last Added Shows</p>
-        <div className='flex flex-wrap justify-between gap-8'>
-          {tempData?.map((data) =>
-            <Link href={'show/' + data?.id} key={data?.id}>
-              <ShowCard page={page} key={data?.id} image={data?.image?.original} rating={data?.rating?.average} summary={data?.summary} />
-            </Link>
-          )}
+          <div className='flex flex-wrap justify-center gap-8'>
+            {tempData?.map((data) =>
+              <Link href={'show/' + data?.id} key={data?.id}>
+                <ShowCard page={page} key={data?.id} image={data?.image?.original} rating={data?.rating?.average} summary={data?.summary} />
+              </Link>
+            )}
         </div>
       </div>
       {
