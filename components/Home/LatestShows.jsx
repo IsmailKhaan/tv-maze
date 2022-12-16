@@ -1,4 +1,5 @@
 import axios from 'axios';
+import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import ShowCard from './ShowCard'
 
@@ -17,7 +18,9 @@ const LatestShows = () => {
       <p className='text-[20px] py-5 tracking-[2px] md:text-white'>Last Added Shows</p>
       <div className='flex flex-wrap md:justify-between gap-8'>
         {data?.map((data) =>
-          <ShowCard key={data?.id} image={data?.image?.original} summary={data?.summary} />
+          <Link href={'show/' + data?.id}>
+            <ShowCard key={data?.id} image={data?.image?.original} summary={data?.summary} />
+          </Link>
         )}
       </div>
     </div>

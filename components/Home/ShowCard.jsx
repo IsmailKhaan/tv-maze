@@ -12,7 +12,7 @@ const ShowCard = ({image,summary}) => {
                 <p>★</p>
                 <p>★</p>
             </div>
-            <p className='text-sm'>{summary.replace(/<p>/g,"").replace(/<b>/g,"").replace(/<i>/g,"").replace("</p>","").replace('</b>',"").replace('</i>',"").substring(0,70)}...</p>
+            <p className='text-sm'>{summary?.replace(/(<([^>]+)>)/gi, "").substring(0,70)}...</p>
         </div>
     )
 }
