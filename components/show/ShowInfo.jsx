@@ -2,7 +2,6 @@ import { data } from 'autoprefixer'
 import React from 'react'
 
 const ShowInfo = ({ stream, day, time, status, genres }) => {
-    console.log(genres);
     return (
         <div className='lg:w-[42%] w-full md:m-2'>
             <p className='font-[600]'>Show Info</p>
