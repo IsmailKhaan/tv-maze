@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
-import ArrowLeft from "./ArrowCircleLeft";
-import ArrowRight from "./ArrowCircleRight";
+import ArrowCircleLeft from "../Icon/ArrowCircleLeft";
+import ArrowCircleRight from "../Icon/ArrowCircleRight";
 
 function DownPagination({
   list = 0,
@@ -10,12 +10,12 @@ function DownPagination({
 }) {
   let [blue, setblue] = useState([true]);
   let [inc, setinc] = useState(0);
-  
+
   useEffect(() => {
     if (page) {
       let temp = [...blue];
       temp = [false];
-      temp[page-1] = true;
+      temp[page - 1] = true;
       setblue(temp);
     }
   }, [page]);
@@ -31,7 +31,7 @@ function DownPagination({
       setblue(temp);
     }
   }
-  
+
   if (lastPage < inc + 5) {
     list = lastPage - inc;
     if (list < 0) {
@@ -45,9 +45,8 @@ function DownPagination({
   }
 
   return (
-    <div className="flex mt-10 mb-10 justify-start">
-      <div
-        className="cursor-pointer"
+    <div className="flex items-center my-8 gap-2">
+      <button
         onClick={() => {
           if (parseInt(inc) - 5 >= 0) {
             setinc(parseInt(inc) - 5);
@@ -60,11 +59,11 @@ function DownPagination({
           }
         }}
       >
-        <ArrowLeft />
-      </div>
+        <ArrowCircleLeft />
+      </button>
       {[...Array(list)].map((x, i) => (
-        <div
-          className="w-fit font-[600] cursor-pointer p-2 px-4 rounded-[50px] mx-3"
+        <button
+          className="border-2 rounded-full px-3 py-1"
           style={{
             backgroundColor: blue[i + inc] ? "#27221C" : "#F6F7F9",
             color: blue[i + inc] ? "#ffff" : "#000000",
@@ -80,10 +79,9 @@ function DownPagination({
           }}
         >
           {i + 1 + inc}
-        </div>
+        </button>
       ))}
-      <div
-        className="cursor-pointer"
+      <button
         onClick={() => {
           if (lastPage > inc + 5) {
             setinc(parseInt(inc) + 5);
@@ -96,8 +94,8 @@ function DownPagination({
           }
         }}
       >
-        <ArrowRight />
-      </div>
+        <ArrowCircleRight />
+      </button>
     </div>
   );
 }

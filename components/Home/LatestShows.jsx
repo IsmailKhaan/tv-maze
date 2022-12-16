@@ -3,6 +3,7 @@ import Link from 'next/link';
 import React, { useEffect, useState } from 'react'
 import ShowCard from './ShowCard'
 import DownPagination from '../Pagination/DownPagination';
+import { showCard, showHeading, showText } from './styles/HomeStyle';
 
 const LatestShows = () => {
   var [page, setPage] = useState(1)
@@ -42,14 +43,14 @@ const LatestShows = () => {
 
   return (
     <>
-      <div className='mx-4 md:mx-20 mt-0 md:mt-[-10%]'>
-        <p className='text-[20px] py-5 tracking-[2px] lg:text-white'>Last Added Shows</p>
-          <div className='flex flex-wrap justify-center gap-8'>
-            {tempData?.map((data) =>
-              <Link href={'show/' + data?.id} key={data?.id}>
-                <ShowCard page={page} key={data?.id} image={data?.image?.original} rating={data?.rating?.average} summary={data?.summary} />
-              </Link>
-            )}
+      <div className={showText}>
+        <p className={showHeading}>Last Added Shows</p>
+        <div className={showCard}>
+          {tempData?.map((data) =>
+            <Link href={'show/' + data?.id} key={data?.id}>
+              <ShowCard page={page} key={data?.id} image={data?.image?.medium} rating={data?.rating?.average} summary={data?.summary} />
+            </Link>
+          )}
         </div>
       </div>
       {
