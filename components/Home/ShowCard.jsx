@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 import StarRating from '../StarRating/StarRating'
 import { showCardHover } from './styles/HomeStyle'
@@ -6,7 +7,8 @@ const ShowCard = ({ key, image, summary, rating }) => {
     
     return (
         <div className={showCardHover}>
-            <img className='rounded object-cover' style={{ width: '200px', height: '250px' }} src={image} alt='showcover' />
+            <Image  className='rounded object-cover' width={200} height={250} src={image} alt='showcover' layout="responsive" loading="lazy" unobserve />
+
             <div className='flex items-center gap-1 text-[14px] text-gray-500'>
                 <StarRating key={key} rating={rating} />
             </div>
@@ -16,3 +18,4 @@ const ShowCard = ({ key, image, summary, rating }) => {
 }
 
 export default ShowCard
+
