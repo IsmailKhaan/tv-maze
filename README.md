@@ -1,8 +1,5 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-### Deployed Website URL
-
-https://tv-maze-sooty.vercel.app/
+Welcome to our website, where you can find a wide range of TV shows and learn more about your favorites. Our homepage features a list of shows, and you can easily click on any of the show cards to see more details about that specific show. We hope you enjoy using our website and discover some new shows to add to your watchlist. Thank you for visiting!
 
 ## Getting Started
 
@@ -38,6 +35,7 @@ The next step to just run docker container by this command
 ```bash
 docker compose up
 ```
+you can access the app on [http://localhost:3000](http://localhost:3000)
 
 # Run cypress 
 
