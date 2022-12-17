@@ -1,12 +1,27 @@
 
 Welcome to our TV Maze, where you can find a wide range of TV shows and learn more about your favorites. Our homepage features a list of shows, and you can easily click on any of the show cards to see more details about that specific show. We hope you enjoy using our website and discover some new shows to add to your watchlist. Thank you for visiting!
 
-<img width="1092" alt="Screen Shot 2022-12-18 at 1 08 51 AM" src="https://user-images.githubusercontent.com/99189210/208264461-a0db1f4<img width="1092" alt="Screen Shot 2022-12-18 at 1 09 13 AM" src="https://user-images.githubusercontent.com/99189210/208264464-b2ad9bcb-aafa-4cf6-8af0-984daf7522a2.png">
-5-75fc-4737-853a-fd6<img width="582" alt="Screen Shot 2022-12-18 at 1 10 36 AM" src="https://user-images.githubusercontent.com/99189210/208264466-e0168157-d0cb-4e1c-af34-abd65c786d73.png">
-7b5da9388.png">
-<img width="404" alt="Screen Shot 2022-12-18 at 1 11 59 AM" src="https://user-images.githubusercontent.com/99189210/208264468-673a67c0-1b59-4e76-9023-350a904d3b50.png">
-<img width="404" alt="Screen Shot 2022-12-18 at 1 14 21 AM" src="https://user-images.githubusercontent.com/99189210/208264515-4f2e7b42-f88b-44f1-a617-47298dffaf8c.png">
-<img width="404" alt="Screen Shot 2022-12-18 at 1 14 32 AM" src="https://user-images.githubusercontent.com/99189210/208264516-224e6762-781e-4384-996b-8c25d28f42ca.png">
+<img width="1022" alt="Screen Shot 2022-12-18 at 1 19 56 AM" src="https://user-images.githubusercontent.com/99189210/208264832-a595a546-071c-4a86-b222-c654104ecfea.png">
+
+<img width="504" alt="Screen Shot 2022-12-18 at 1 23 32 AM" src="https://user-images.githubusercontent.com/99189210/208264861-7ef942d7-5ded-4062-b798-d189573c11ce.png">
+
+<img width="504" alt="Screen Shot 2022-12-18 at 1 23 32 AM" src="https://user-images.githubusercontent.com/99189210/208264880-89513ea2-188c-4db2-95e1-6c6c752afc74.png">
+
+<img width="504" alt="Screen Shot 2022-12-18 at 1 23 32 AM" src="https://user-images.githubusercontent.com/99189210/208265075-b4971113-149d-4df6-be0b-d4aba375a93b.png">
+
+<img width="1015" alt="Screen Shot 2022-12-18 at 1 29 07 AM" src="https://user-images.githubusercontent.com/99189210/208265083-718995a3-7ef4-4f1b-bfef-52a27d390703.png">
+
+
+<img width="546" alt="Screen Shot 2022-12-18 at 1 29 52 AM" src="https://user-images.githubusercontent.com/99189210/208265091-4fbf4bda-0175-4cfe-beef-ce9b55405ff6.png">
+
+
+
+<img width="332" alt="Screen Shot 2022-12-18 at 1 30 59 AM" src="https://user-images.githubusercontent.com/99189210/208265102-8a1a9579-20b4-490c-a024-f171778a1ad7.png">
+
+
+<img width="322" alt="Screen Shot 2022-12-18 at 1 31 23 AM" src="https://user-images.githubusercontent.com/99189210/208265115-1b971e22-594b-43a2-a7fc-4d4b6b1da0d2.png">
+
+
 
 
 ## Getting Started
