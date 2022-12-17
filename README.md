@@ -33,6 +33,15 @@ The next step to just run docker container by this command
 docker compose up
 ```
 
+# Run cypress 
+
+To run the cypress for the test case follow the command:
+
+
+The next step to just run docker container by this command
+```bash
+npm test 
+```
 
 ## Deploy on Vercel
 
