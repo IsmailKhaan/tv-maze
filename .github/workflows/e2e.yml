@@ -1,0 +1,23 @@
+name: Tv Maze E2E test suite
+on: 
+  push:
+    branches:
+      - 'main'
+  workflow_dispatch:
+
+jobs:
+  checkout-and-test:
+    runs-on: ubuntu-latest
+    steps:
+
+      - name: Check out repository code
+        uses: actions/checkout@v2
+
+      - name: Run cypress tests with firefox
+        uses: cypress-io/github-action@v4.1.0
+        timeout-minutes: 10
+        with:
+          browser: firefox
+          build: npm run build
+          start: npm run start
+          wait-on: http://localhost:3000
