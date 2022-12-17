@@ -3,10 +3,10 @@ import React from 'react'
 import StarRating from '../StarRating/StarRating'
 import { imgDesktop, imgMobile, showBanner, showBannerText, showData } from './styles/ShowStyle'
 
-const ShowBanner = ({ name, image, summary, rating }) => {
+const ShowBanner = ({ key, name, image, summary, rating }) => {
     return (
         <div className={showBanner}>
-            <div className='flex items-center gap-8'>
+            <div className='flex items-center gap-4'>
                 <Link href="/">
                     <svg class="h-8 w-8 hover:bg-slate-500 hover:rounded-full hover:bg-opacity-25 p-1 opacity-50 text-white" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                         <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18" />
@@ -19,7 +19,7 @@ const ShowBanner = ({ name, image, summary, rating }) => {
                 <img className={imgMobile} src={image} alt='showcover' />
                 <div className='flex flex-col gap-3 lg:w-[1000px]'>
                     <div className='flex items-center gap-1 text-[14px] text-gray-500'>
-                        <StarRating rating={rating} />
+                        <StarRating key={key} rating={rating} />
                         <p>{rating}/10</p>
                     </div>
                     <p className='text-2xl'>{name}</p>
