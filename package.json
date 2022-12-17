@@ -6,13 +6,17 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "cypress:open": "cypress open",
+    "test": "start-server-and-test dev 3000 cypress:open"
   },
   "dependencies": {
     "axios": "^1.2.1",
+    "cypress": "^12.1.0",
     "next": "13.0.6",
     "react": "18.2.0",
-    "react-dom": "18.2.0"
+    "react-dom": "18.2.0",
+    "start-server-and-test": "^1.15.2"
   },
   "devDependencies": {
     "autoprefixer": "^10.4.13",
