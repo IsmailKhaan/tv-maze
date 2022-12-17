@@ -1,5 +1,5 @@
 
-Welcome to our website, where you can find a wide range of TV shows and learn more about your favorites. Our homepage features a list of shows, and you can easily click on any of the show cards to see more details about that specific show. We hope you enjoy using our website and discover some new shows to add to your watchlist. Thank you for visiting!
+Welcome to our TV Maze, where you can find a wide range of TV shows and learn more about your favorites. Our homepage features a list of shows, and you can easily click on any of the show cards to see more details about that specific show. We hope you enjoy using our website and discover some new shows to add to your watchlist. Thank you for visiting!
 
 ## Getting Started
 
