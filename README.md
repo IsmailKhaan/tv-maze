@@ -59,13 +59,19 @@ you can access the app on [http://localhost:3000](http://localhost:3000)
 
 # Run cypress 
 
-To run the cypress e2e test cases follow the command:
+To run the cypress e2e test cases follow the steps given below:
 
+1-run the development server
 
 ```bash
-npm test 
-#or
-yarn test
+npm run dev
+# or
+yarn dev
+```
+
+2- run cypress that will open up the cypress window to run the test case
+```bash
+cypress open
 ```
 
 ## Deploy on Vercel
