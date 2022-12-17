@@ -74,9 +74,3 @@ yarn dev
 cypress open
 ```
 
-## Deploy on Vercel
-
-
-### Deployed Website URL
-
-https://tv-maze-sooty.vercel.app/
