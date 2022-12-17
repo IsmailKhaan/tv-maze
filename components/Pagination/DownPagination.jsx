@@ -76,6 +76,7 @@ function DownPagination({
             setblue(temp);
             setPage(i + 1 + inc);
             localStorage.setItem("page", (i + 1 + inc))
+            window.scrollTo({top: 0, left: 0, behavior: 'smooth'});
           }}
         >
           {i + 1 + inc}
