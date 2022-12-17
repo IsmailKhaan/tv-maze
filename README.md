@@ -1,6 +1,14 @@
 
 Welcome to our TV Maze, where you can find a wide range of TV shows and learn more about your favorites. Our homepage features a list of shows, and you can easily click on any of the show cards to see more details about that specific show. We hope you enjoy using our website and discover some new shows to add to your watchlist. Thank you for visiting!
 
+<img width="1092" alt="Screen Shot 2022-12-18 at 1 08 51 AM" src="https://user-images.githubusercontent.com/99189210/208264461-a0db1f4<img width="1092" alt="Screen Shot 2022-12-18 at 1 09 13 AM" src="https://user-images.githubusercontent.com/99189210/208264464-b2ad9bcb-aafa-4cf6-8af0-984daf7522a2.png">
+5-75fc-4737-853a-fd6<img width="582" alt="Screen Shot 2022-12-18 at 1 10 36 AM" src="https://user-images.githubusercontent.com/99189210/208264466-e0168157-d0cb-4e1c-af34-abd65c786d73.png">
+7b5da9388.png">
+<img width="404" alt="Screen Shot 2022-12-18 at 1 11 59 AM" src="https://user-images.githubusercontent.com/99189210/208264468-673a67c0-1b59-4e76-9023-350a904d3b50.png">
+<img width="404" alt="Screen Shot 2022-12-18 at 1 14 21 AM" src="https://user-images.githubusercontent.com/99189210/208264515-4f2e7b42-f88b-44f1-a617-47298dffaf8c.png">
+<img width="404" alt="Screen Shot 2022-12-18 at 1 14 32 AM" src="https://user-images.githubusercontent.com/99189210/208264516-224e6762-781e-4384-996b-8c25d28f42ca.png">
+
+
 ## Getting Started
 
 First, install the dependencies:
