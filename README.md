@@ -1,6 +1,5 @@
 
 Welcome to our TV Maze, where you can find a wide range of TV shows and learn more about your favorites. Our homepage features a list of shows, and you can easily click on any of the show cards to see more details about that specific show. We hope you enjoy using our website and discover some new shows to add to your watchlist. Thank you for visiting!
-<div align="center">
 
 
 
@@ -59,6 +58,7 @@ yarn dev
 cypress open
 ```
 ### screen shots 
+<div align="center">
 
 <img width="1022" alt="Screen Shot 2022-12-18 at 1 19 56 AM" src="https://user-images.githubusercontent.com/99189210/208264832-a595a546-071c-4a86-b222-c654104ecfea.png">
 
