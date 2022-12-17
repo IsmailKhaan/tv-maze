@@ -35,7 +35,7 @@ docker compose up
 
 # Run cypress 
 
-To run the cypress for the test case follow the command:
+To run the cypress e2e test cases follow the command:
 
 
 ```bash
