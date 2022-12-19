@@ -36,6 +36,7 @@ const LatestShows = () => {
     tempData.splice(0, tempData.length);
     if (data?.length) {
       for (var i = (page - 1) * limit; i < limit * page; i++) {
+        if (data?.[i])
         tempData.push(data?.[i])
       }
     }
