@@ -29,7 +29,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 # Run from Docker
 
-For run this project from docker follow these commands:
+For run this project from docker follow these commands: 
 
 First we enter to `tv-maze-docker` directory
 ```bash
